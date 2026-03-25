@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Future University</title>
+    <link rel="stylesheet" href="../../auth/css/auth.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../style.css"><link rel="stylesheet" href="../../dashboard/css/dashboard.css"></head>
+<body>
+    <div class="auth-container">
+        <div class="auth-panel">
+            <h2>Join Our Community</h2>
+            <p>Create an account to begin your journey with Future University.</p>
+        </div>
+        <div class="auth-form-container">
+             <a href="../../../index.html" class="back-home-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <form class="auth-form">
+                <h3>Create Your Account</h3>
+
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" placeholder="John Doe" id="fullname" required="">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" placeholder="email@example.com" id="email" required="">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Create a strong password" id="password" required="">
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password" id="confirm-password" required="">
+                </div>
+                
+                <button type="button" class="auth-btn" onclick="signup()">Sign Up</button>
+                
+                <p class="form-switch">Already have an account? <a href="../../login/html/login.html">Log In</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <script src="signup.js"></script>
+
+
+<script src="../../../script.js"></script><script src="../js/signup.js"></script><script src="../../login/js/login.js"></script><script src="../../dashboard/js/dashboard.js"></script></body></html>
