@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Future University</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../../../style.css"><link rel="stylesheet" href="../../auth/css/auth.css"></head>
+<body>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3>Future University</h3>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li><a href="#"><i class="fas fa-book-open"></i><span>My Courses</span></a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i><span>Schedule</span></a></li>
+                    <li><a href="#"><i class="fas fa-graduation-cap"></i><span>Grades</span></a></li>
+                    <li><a href="#"><i class="fas fa-dollar-sign"></i><span>Payments</span></a></li>
+                    <li><a href="#"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="../../../index.html"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-left">
+                    <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+                    <h1>Welcome, Student!</h1>
+                </div>
+                <div class="header-right">
+                    <div class="user-info">
+                        <span>John Doe</span>
+                        <img src="https://i.pravatar.cc/40" alt="User Avatar">
+                    </div>
+                </div>
+            </header>
+
+            <section class="overview-cards">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-book"></i></div>
+                    <div class="card-info">
+                        <h4>4</h4>
+                        <p>Enrolled Courses</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="card-info">
+                        <h4>12</h4>
+                        <p>Assignments Due</p>
+                    </div>
+                </div>
+                <div class="card">
+                     <div class="card-icon"><i class="fas fa-bell"></i></div>
+                    <div class="card-info">
+                        <h4>3</h4>
+                        <p>Upcoming Exams</p>
+                    </div>
+                </div>
+                <div class="card">
+                     <div class="card-icon"><i class="fas fa-wallet"></i></div>
+                    <div class="card-info">
+                        <h4>$250.00</h4>
+                        <p>Fees Outstanding</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-area">
+                <div class="panel course-progress">
+                    <h2>Course Progress</h2>
+                    <div class="progress-item">
+                        <p>Business Administration</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                     <div class="progress-item">
+                        <p>Computer Science</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                     <div class="progress-item">
+                        <p>Medical Sciences</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel upcoming-events">
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <li><span class="event-date">Oct 25</span> Mid-term Exams Begin</li>
+                        <li><span class="event-date">Nov 05</span> Project Submission Deadline</li>
+                        <li><span class="event-date">Nov 15</span> University Tech Fest '23</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="dashboard.js"></script>
+
+<script src="../../../script.js"></script><script src="../../signup/js/signup.js"></script><script src="../../login/js/login.js"></script><script src="../js/dashboard.js"></script></body></html>
