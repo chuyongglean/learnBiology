@@ -1,433 +1,136 @@
 <!DOCTYPE html><html lang="en"><head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3R5TVRF5L5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3R5TVRF5L5');
-</script>
-
- 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chuyong Glean - World-Class Software Developer &amp; UI/UX Designer Portfolio">
-    <title>Chuyong Glean | Software Developer</title>
+    <title>Future University - Your Gateway to Excellence</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="pages/dashboard/css/dashboard.css"><link rel="stylesheet" href="pages/auth/css/auth.css"></head>
 <body>
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
 
     <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <a href="#home" class="logo">
-                    <span class="logo-text">CHUYONG</span><span class="logo-dot">.</span>
-                </a>
-                <nav class="nav-menu" aria-label="Main Navigation">
-                    <ul class="nav-list">
-                        <li><a href="#home" class="nav-link active">Home</a></li>
-                        <li><a href="#about" class="nav-link">Philosophy</a></li>
-                        <li><a href="#work" class="nav-link">Portfolio</a></li>
-                        <li><a href="#services" class="nav-link">Expertise</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                    <div class="nav-mobile-footer">
-                        <div class="nav-mobile-details">
-                            <span class="nav-mobile-label">Direct Inquiry</span>
-                            <a href="mailto:chuyongglean@gmail.com" class="nav-mobile-link">chuyongglean@gmail.com</a>
-                        </div>
-                        <div class="nav-mobile-socials">
-                            <a href="https://github.com/chuyongglean" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://twitter.com/Chuyongglean" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://facebook.com/chuyongglean.1" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                        </div>
-                    </div>
-                </nav>
-                <div class="header-cta">
-                    <a href="#contact" class="btn-premium">Start Project</a>
-                </div>
-                <button class="hamburger" aria-label="Menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Future University</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item nav-item-auth">
+                    <a href="pages/login/html/login.html" class="btn btn-secondary">Login</a>
+                </li>
+                <li class="nav-item nav-item-auth">
+                    <a href="pages/signup/html/signup.html" class="btn btn-primary">Sign Up</a>
+                </li>
+            </ul>
+            <div class="nav-auth">
+                <a href="pages/login/html/login.html" class="btn btn-secondary">Login</a>
+                <a href="pages/signup/html/signup.html" class="btn btn-primary">Sign Up</a>
             </div>
-        </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section id="home" class="hero-section">
-            <div class="hero-background">
-                <div class="hero-glow-1"></div>
-                <div class="hero-glow-2"></div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Your Gateway to Excellence</h1>
+                <p>Discover your potential, shape your future, and join a community of innovators and leaders.</p>
+                <a href="#courses" class="btn btn-primary btn-lg">Explore Courses</a>
             </div>
-            <div class="container">
-                <div class="hero-grid">
-                    <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
-                        <div class="greeting-pill">
-                            <span class="pill-dot"></span>
-                            <span>Available for global collaboration</span>
-                        </div>
-                        <h1 class="hero-title">
-                            <span class="hero-sub-title">Hello, I'm</span>
-                            <span class="hero-main-title"><span class="hero-name">CHUYONG GLEAN</span></span>
-                        </h1>
-                        <p class="hero-lead">
-                            Elite Software Engineer &amp; High-Performance Implementer. I architect world-class digital systems with mathematical precision and refined minimalist aesthetics.
-                        </p>
-                        <div class="hero-cta-group">
-                            <a href="#work" class="btn btn-elite">View Portfolio</a>
-                            <a href="pages/biography/index.html" class="btn btn-ghost">My Biography <i class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                    <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="profile-frame">
-                            <div class="frame-border"></div>
-                            <img src="assets/Chuyongglean.png" alt="Chuyong Glean" class="profile-image-mask" fetchpriority="high">
-                            <div class="profile-gradient"></div>
-                        </div>
-                    </div>
+        </section>
+
+        <section id="about" class="container about-section">
+            <h2>Why Choose Us?</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Expert Faculty</h3>
+                    <p>Learn from industry leaders and renowned academics dedicated to your success.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Cutting-Edge Research</h3>
+                    <p>Engage in groundbreaking research that makes a real-world impact.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Community</h3>
+                    <p>Join a diverse and vibrant student body from all over the world.</p>
                 </div>
             </div>
         </section>
-        <section id="about" class="about-elite section-padding">
+
+        <section id="courses" class="courses-section">
             <div class="container">
-                <div class="about-layout">
-                    <div class="about-visual" data-aos="fade-up">
-                        <div class="visual-card">
-                            <span class="card-label">Engineering Excellence</span>
-                            <div class="card-stats">
-                                <div class="stat-item">
-                                    <span class="stat-value">4+</span>
-                                    <span class="stat-name">Years Exp.</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-value">25+</span>
-                                    <span class="stat-name">Deployments</span>
-                                </div>
-                            </div>
+                <h2>Featured Courses</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" alt="Business Course">
+                        <div class="course-content">
+                            <h3>Business Administration</h3>
+                            <p>Master the fundamentals of business, leadership, and entrepreneurship.</p>
+                            <a href="#" class="btn btn-secondary">Learn More</a>
                         </div>
                     </div>
-                    <div class="about-narrative">
-                        <div class="section-marker" data-aos="fade-right">01. THE PHILOSOPHY</div>
-                        <h2 class="section-title-elite" data-aos="fade-up">
-                            Bridging the gap between <span>visionary ideas</span> and high-performance reality.
-                        </h2>
-                        <p class="narrative-lead" data-aos="fade-up" data-aos-delay="100">
-                            I am Chuyong Glean, a Software Engineer dedicated to crafting digital products that define industries. My approach is rooted in mathematical precision, clean architecture, and an obsession with user experience.
-                        </p>
-                        <div class="narrative-details" data-aos="fade-up" data-aos-delay="200">
-                            <p>
-                                Specializing in the <strong>Flutter ecosystem</strong> and <strong>Full-Stack JavaScript</strong>, I build systems that don't just function—they excel. From architecting the Shuyong Tech educational platform to developing advanced developer tools like Web IDE, my mission is to empower users through technology.
-                            </p>
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" alt="Computer Science Course">
+                        <div class="course-content">
+                            <h3>Computer Science</h3>
+                            <p>Dive into AI, software development, and cybersecurity with our expert-led program.</p>
+                            <a href="#" class="btn btn-secondary">Learn More</a>
                         </div>
-                        <div class="narrative-cta" data-aos="fade-up" data-aos-delay="300">
-                            <a href="pages/biography/index.html" class="link-premium">Read Full Biography <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" alt="Medical Science Course">
+                        <div class="course-content">
+                            <h3>Medical Sciences</h3>
+                            <p>Prepare for a rewarding career in healthcare with hands-on clinical experience.</p>
+                            <a href="#" class="btn btn-secondary">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="services" class="expertise-section section-padding">
-            <div class="container">
-                <div class="section-header-elite" data-aos="fade-up">
-                    <div class="section-marker">02. EXPERTISE</div>
-                    <h2 class="section-title-minimal">Core Competencies</h2>
-                </div>
-                <div class="expertise-grid">
-                    <div class="expertise-item" data-aos="fade-up">
-                        <div class="expertise-count">01</div>
-                        <h3 class="expertise-title">Cross-Platform Engineering</h3>
-                        <p class="expertise-desc">Building native-performance applications for iOS, Android, and Web using Flutter and Dart. Focus on complex animations and optimized state management.</p>
-                        <ul class="expertise-list">
-                            <li>Flutter Framework</li>
-                            <li>Dart Language</li>
-                            <li>Architecture Design</li>
-                        </ul>
-                    </div>
-                    <div class="expertise-item active" data-aos="fade-up" data-aos-delay="100">
-                        <div class="expertise-count">02</div>
-                        <h3 class="expertise-title">Full-Stack Architecture</h3>
-                        <p class="expertise-desc">Designing robust backend systems and scalable frontend interfaces. Expert in React, Node.js, and cloud-native deployments.</p>
-                        <ul class="expertise-list">
-                            <li>React / Next.js</li>
-                            <li>Node.js / Express</li>
-                            <li>PostgreSQL / Firebase</li>
-                        </ul>
-                    </div>
-                    <div class="expertise-item" data-aos="fade-up" data-aos-delay="200">
-                        <div class="expertise-count">03</div>
-                        <h3 class="expertise-title">UI/UX Product Design</h3>
-                        <p class="expertise-desc">Translating business logic into intuitive visual hierarchies. High-fidelity prototyping and design-system implementation with Figma.</p>
-                        <ul class="expertise-list">
-                            <li>Design Systems</li>
-                            <li>Figma Prototyping</li>
-                            <li>A11y Compliance</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="work" class="showcase-section section-padding">
-            <div class="container">
-                <div class="section-header-elite" data-aos="fade-up">
-                    <div class="section-marker">03. SHOWCASE</div>
-                    <h2 class="section-title-minimal">Flagship Application</h2>
-                </div>
-                
-                <div class="showcase-wrapper">
-                    <div class="showcase-grid">
-                        <div class="showcase-visual" data-aos="fade-right">
-                            <div class="visual-container">
-                                <img src="assets/webide.png" alt="Web IDE Interface - A professional mobile code editor with high-performance execution and AI integration" class="showcase-image">
-                                <div class="showcase-overlay"></div>
-                            </div>
-                        </div>
-                        <div class="showcase-content" data-aos="fade-left">
-                            <div class="showcase-badge">Advanced Web Development</div>
-                            <h3 class="showcase-title">Web IDE: AI Code Editor </h3>
-                            <p class="showcase-lead">
-                                A professional-grade integrated development environment architected specifically for iOS. Web IDE empowers engineers to build, debug, and deploy from anywhere with zero compromises. Featuring a high-performance terminal, robust local file system access, and integrated AI assistance, it represents the absolute pinnacle of mobile software engineering tools.
-                            </p>
-                            <div class="feature-grid">
-                                <div class="feature-card">
-                                    <div class="feature-icon-box">
-                                        <i class="fa-solid fa-laptop-code"></i>
-                                    </div>
-                                    <div class="feature-text">
-                                        <h4>Desktop-Class Editor</h4>
-                                        <p>Full syntax highlighting, auto-completion, and multi-cursor support optimized for high-DPI touch interfaces.</p>
-                                    </div>
-                                </div>
-                                <div class="feature-card">
-                                    <div class="feature-icon-box">
-                                        <i class="fa-solid fa-brain"></i>
-                                    </div>
-                                    <div class="feature-text">
-                                       <h4>AI-Powered Logic</h4>
-                                        <p>Real-time code suggestions and architectural insights powered by deeply integrated neural models.</p>
-                                    </div>
-                                </div>
-                                <div class="feature-card">
-                                    <div class="feature-icon-box">
-                                        <i class="fa-solid fa-folder-tree"></i>
-                                    </div>
-                                    <div class="feature-text">
-                                        <h4>Elite File Management</h4>
-                                        <p>Robust access to local and cloud storage with seamless version control and high-speed execution engines.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="showcase-actions">
-                                <a href="https://apps.apple.com/app/id6751813522" target="_blank" class="btn btn-app-store">
-                                    <i class="fa-brands fa-apple"></i>
-                                    <div class="app-store-text">
-                                        <span>Download on the</span>
-                                        <strong>App Store</strong>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="skills-elite section-padding">
-            <div class="container">
-                <div class="skills-layout">
-                    <div class="skills-info">
-                        <div class="section-marker">04. ARSENAL</div>
-                        <h2 class="section-title-minimal">Technical Stack</h2>
-                        <p class="skills-lead">I maintain a curated stack of modern technologies that enable rapid development without compromising on stability or performance.</p>
-                    </div>
-                    <div class="skills-categories">
-                        <div class="skill-tier" data-aos="fade-left">
-                            <h4 class="tier-name">Core Engineering</h4>
-                            <div class="tier-tags">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>TypeScript</span>
-                                <span>React</span>
-                                <span>Node.js</span>
-                            </div>
-                        </div>
-                        <div class="skill-tier" data-aos="fade-left" data-aos-delay="100">
-                            <h4 class="tier-name">Ecosystem & Cloud</h4>
-                            <div class="tier-tags">
-                                <span>PostgreSQL</span>
-                                <span>Firebase</span>
-                                <span>AWS</span>
-                                <span>Supabase</span>
-                                <span>Docker</span>
-                                <span>Redis</span>
-                            </div>
-                        </div>
-                        <div class="skill-tier" data-aos="fade-left" data-aos-delay="200">
-                            <h4 class="tier-name">Interface & Design</h4>
-                            <div class="tier-tags">
-                                <span>Figma</span>
-                                <span>Tailwind CSS</span>
-                                <span>Framer Motion</span>
-                                <span>GSAP</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="testimonials" class="testimonials-section section-padding">
-            <div class="container">
-                <div class="section-header text-center" data-aos="fade-up">
-                    <span class="section-subtitle">Testimonials</span>
-                    <h2 class="section-title">Client Stories</h2>
-                </div>
-                <div class="testimonials-grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
-                        <p class="testimonial-text">"Chuyong is a highly skilled developer with a keen eye for detail. He delivered a high-quality product on time and was a pleasure to work with throughout the entire process. Highly recommended!"</p>
-                        <div class="testimonial-user">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80" alt="Jane Doe">
-                            <div class="user-info">
-                                <h4>Jane Doe</h4>
-                                <span>CEO, Tech Solutions</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
-                        <p class="testimonial-text">"His understanding of modern software development and UI/UX principles is exceptional. He transformed our rough sketches into a fully functional and beautiful application that exceeded our expectations."
-                        </p>
-                        <div class="testimonial-user">
-                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80" alt="John Smith">
-                            <div class="user-info">
-                                <h4>John Smith</h4>
-                                <span>PM, Creative Minds</span>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
-                        <p class="testimonial-text">"Working with Chuyong was a breeze. He communicates clearly, understands requirements quickly, and delivers pixel-perfect code. A true professional in every sense."</p>
-                        <div class="testimonial-user">
-                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80" alt="Sarah Lee">
-                            <div class="user-info">
-                                <h4>Sarah Lee</h4>
-                                <span>Founder, StartUp Inc</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact-section section-padding">
-            <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info" data-aos="fade-right">
-                        <span class="section-subtitle">Get in Touch</span>
-                        <h2 class="section-title">Let's Build Something <span class="gradient-text">Amazing!</span></h2>
-                        <p>I'm currently available for freelance work and open to discussing new projects. Whether you have a question or just want to say hi, my inbox is always open!</p>
-                        
-                        <div class="contact-details">
-                            <div class="contact-item">
-                                <div class="icon-circle"><i class="fas fa-envelope"></i></div>
-                                <div>
-                                    <h4>Email Me</h4>
-                                    <p>chuyongglean@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon-circle"><i class="fas fa-phone"></i></div>
-                                <div>
-                                    <h4>Call Me</h4>
-                                    <p>+237 674 246 593</p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
-                                <div>
-                                    <h4>Location</h4>
-                                    <p>Cameroon, Africa</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-container" data-aos="fade-left">
-                        <form class="contact-form" id="contactForm" novalidate="">
-                            <h3>Send Message</h3>
-                            <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Doe" required="">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="email" placeholder="john@example.com" required="">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <select id="subject" name="subject" required="">
-                                    <option value="" disabled selected>Select Inquiry Type</option>
-                                    <option value="New Project Proposal">New Project Proposal</option>
-                                    <option value="Professional Networking">Professional Networking</option>
-                                    <option value="Technical Consultation">Technical Consultation</option>
-                                    <option value="General Inquiry">General Inquiry</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required=""></textarea>
-                            </div>
-                            <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
-                            <div id="form-status"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#home">Chuyong<span class="dot">.</span></a>
-                    <p>Building digital experiences with passion and precision.</p>
+                <div class="footer-about">
+                    <h3>Future University</h3>
+                    <p>Fostering knowledge and innovation for a better tomorrow.</p>
                 </div>
-                <div class="footer-nav">
-                    <div class="footer-links">
-                        <a href="#home">Home</a>
-                        <a href="#about">Philosophy</a>
-                        <a href="#work">Portfolio</a>
-                        <a href="#services">Expertise</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    <div class="footer-socials">
-                        <a href="https://github.com/chuyongglean" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://facebook.com/chuyongglean.1" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/Chuyongglean" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                    </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© <span id="current-year"></span> Chuyong Glean. All rights reserved.</p>
-                <p>Designed with <i class="fas fa-heart pulse"></i></p>
+                <p>© 2023 Future University. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 
 
-            </body></html>
+<script src="pages/signup/js/signup.js"></script><script src="pages/login/js/login.js"></script><script src="pages/dashboard/js/dashboard.js"></script></body></html>
